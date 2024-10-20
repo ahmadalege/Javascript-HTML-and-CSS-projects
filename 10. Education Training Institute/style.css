@@ -1,0 +1,125 @@
+.custom_nav {
+  font-size: small;
+  box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.3);
+}
+
+.custom_nav ul.dropdown-menu {
+  font-size: small;
+}
+
+.custom-divider {
+  height: 5px;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 9%,
+    rgba(44, 104, 152, 1) 30%,
+    rgba(132, 212, 35, 1) 53%,
+    rgba(70, 203, 212, 1) 75%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+
+.main-banner {
+  padding-top: 150px;
+  padding-bottom: 100px;
+  background: url(img/Banner.jpg);
+  color: #fff;
+  background-size: cover;
+}
+
+.feature-holder {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.features {
+  padding-top: 35px;
+  padding-bottom: 35px;
+  background-color: whitesmoke;
+}
+
+.feature-holder h3 {
+  font-size: 1.2em;
+}
+
+.feature-holder p {
+  font-size: 1em;
+}
+
+.online-courses {
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+
+.online-courses-text-widget {
+  text-align: center;
+}
+
+.online-courses-text-widget h2 {
+  font-size: 1.3em;
+}
+
+.online-courses-text-widget p {
+  font-size: 14px;
+}
+
+.classroom-training,
+.reviews-slider,
+.page-content,
+.main {
+  background: whitesmoke;
+}
+
+a.list-group-item:hover {
+  color: blue;
+}
+
+#review-slider-content li .card {
+  text-align: center;
+}
+
+#review-slider-content li .card img {
+  width: 50px;
+  margin-bottom: 15px;
+}
+
+#review-slider-content li .card h6 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+#review-slider-content li .card h5 {
+  color: orange;
+  font-size: 14px;
+}
+
+#review-slider-content li .card p {
+  font-size: 14px;
+}
+
+.main-foooter {
+  background-color: #2c2b2b;
+  color: white;
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+
+aside.footer-widget ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+aside.footer-widget ul li a {
+  text-decoration: none;
+  font-size: 14px;
+  color: rgb(171, 169, 169);
+  display: inline-block;
+  margin-bottom: 5px;
+}
+
+address h2 {
+  font-size: 20px;
+}
+
