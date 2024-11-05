@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Container Spacing</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      body {
+        padding: 5rem;
+      }
+    </style>
+  </head>
+  <body>
+    <h3>1. Margin</h3>
+    <div class="m-6 bg-yellow-100">Margin All Around</div>
+    <div class="mx-4 bg-yellow-200">Margin from X axis</div>
+    <div class="my-4 bg-yellow-300">Margin from Y axis</div>
+    <div class="mt-6 bg-yellow-400">Margin top</div>
+    <div class="mb-6 bg-yellow-500">Margin bottom</div>
+    <div class="mr-2 bg-yellow-600">Margin right</div>
+    <div class="ml-10 bg-yellow-700">Margin left</div>
+
+    <div class="m-[250px] bg-slate-400">
+      2. Arbitrary Spacing (Margin All Around)
+    </div>
+
+    <h3>3. Padding</h3>
+    <div class="p-6 bg-violet-100">Padding All Around</div>
+    <div class="px-4 bg-violet-200">Padding from X axis</div>
+    <div class="py-4 bg-violet-300">Padding from Y axis</div>
+    <div class="pt-6 bg-violet-400">Padding top</div>
+    <div class="pb-6 bg-violet-500">Padding bottom</div>
+    <div class="pr-2 bg-violet-600">Padding right</div>
+    <div class="pl-10 bg-violet-700">Padding left</div>
+    <div class="pb-[60px] bg-violet-800">Padding bottom</div>
+
+    <!-- Space between X -->
+    <h3>4. Space between X</h3>
+    <div class="flex space-x-3">
+      <div class="p-3 bg-rose-300">01</div>
+      <div class="p-3 bg-rose-400">02</div>
+      <div class="p-3 bg-rose-500">03</div>
+    </div>
+    <!-- Space between Y -->
+    <h3>4. Space between Y</h3>
+    <div class="flex flex-col space-y-3">
+      <div class="p-3 bg-cyan-300">01</div>
+      <div class="p-3 bg-cyan-400">02</div>
+      <div class="p-3 bg-cyan-500">03</div>
+    </div>
+  </body>
+</html>
